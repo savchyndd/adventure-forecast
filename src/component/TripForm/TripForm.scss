@@ -1,0 +1,29 @@
+.trip-form {
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--background-color-grey);
+
+        &>button {
+            height: fit-content;
+
+            color: var(--color);
+            background-color: transparent;
+
+            transform: rotate(45deg);
+
+            border: none;
+
+            cursor: pointer;
+
+            &>svg {
+                height: 24px;
+                width: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.trip__list {
+    display: grid;
+    justify-items: center;
+
+    grid-template-columns: repeat(auto-fit, minmax(clamp(100px, 953px, 180px), 1fr));
+
+    gap: 12px;
+
+}

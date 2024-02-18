@@ -1,15 +1,19 @@
 import Header from "./Header/Header";
-
-import "./App.css";
 import HomePage from "./HomePage/HomePage";
+import SideBar from "./SideBar/SideBar";
+
+import "./App.scss";
 
 function App() {
   return (
     <div className="wrapper">
-      <Header />
-      <main>
-        <HomePage />
-      </main>
+      <div>
+        <Header />
+        <main>
+          <HomePage />
+        </main>
+      </div>
+      <SideBar />
     </div>
   );
 }

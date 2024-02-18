@@ -1,0 +1,24 @@
+.add-trip__btn {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    font-weight: 600;
+
+    width: 180px;
+    height: 168px;
+
+    color: var(--color);
+    background-color: var(--background-color-grey);
+    border: none;
+
+    cursor: pointer;
+
+    &>svg {
+        width: 24px;
+        height: 24px;
+    }
+}
