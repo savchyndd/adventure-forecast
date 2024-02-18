@@ -1,0 +1,44 @@
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    width: clamp(200px, 50%, 400px);
+
+    &__input {
+        width: 100%;
+
+        border: none;
+        border-radius: 8px;
+
+        font-size: 14px;
+        line-height: 1.5;
+
+        padding: 10px 20px 10px 43px;
+
+        color: var(--color);
+        background-color: var(--background-color-gey);
+
+        &::placeholder {
+            color: var(--placeholder);
+        }
+
+        &:focus {
+            outline: none;
+
+            &+.search__icon>svg {
+                fill: var(--background-color);
+            }
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        left: 15px;
+
+        stroke: inherit;
+        fill: inherit;
+
+        cursor: text;
+    }
+}
